@@ -1,4 +1,7 @@
 # NexaX
+
+[![GitHub release](https://img.shields.io/github/release/BlasterAlex/NexaX?color=green)](https://github.com/BlasterAlex/NexaX/releases/latest) [![GitHub](https://img.shields.io/github/license/BlasterAlex/NexaX?color=blue)](https://github.com/BlasterAlex/NexaX/blob/master/LICENSE.md)
+
 Набор скинов для Rainmeter. За основу был взят дизайн виджетов [Nexa](https://7themes.su/news/nexa/2017-07-02-1282) с добавлением необходимого функционала.
 
 # Что входит
