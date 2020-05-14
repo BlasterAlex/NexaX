@@ -1,9 +1,11 @@
 [Variables]
 
 ; Window settings
+compactMode=1
+windowWidth=250
 windowPadding=20
+windowBarPadding=22
 windowSpectrumPadding=30
-windowBarPadding=40
 
 ; Fonts
 fontName=Calibri
