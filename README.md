@@ -13,6 +13,8 @@
   
 - Основная информация о системе
 
+    Для ноутбуков выводится информация о текущем состоянии батареи
+
 <p align="center">
   <img src="./@Resources/preview/system.png"/>
 </p>
@@ -20,25 +22,31 @@
 - Информация об использовании процессора и оперативной памяти
 
 <p align="center">
-  <img src="./@Resources/preview/resources.gif" width="400"/>
+  <img src="./@Resources/preview/resources.gif" width="350"/>
 </p>
 
 - Информация о дисках, подключаемых USB-устройствах и корзине
 
 <p align="center">
-  <img src="./@Resources/preview/drive.gif" width="400"/>
+  <img src="./@Resources/preview/drive_1.gif" width="700"/>
+</p>
+
+<p align="center">
+  <img src="./@Resources/preview/drive_2.gif" width="400"/>
 </p>
 
 - Музыкальный проигрыватель
 
+    Для управление воспроизведением треков используется плагин NowPlaying, который поддерживает работу не со всеми плейерами (протестировано с [Winamp](https://www.winamp.com/) и [Aimp](https://www.aimp.ru/?do=download)). В остальных случаях, а также при прослушивании музыки через Интернет, управление воспроизведением будет недоступно и будет отображаться только спектрум и панель громкости. 
+
 <p align="center">
-  <img src="./@Resources/preview/music.gif" width="400"/>
+  <img src="./@Resources/preview/music.gif" width="500"/>
 </p>
 
 - Сетевой монитор
 
 <p align="center">
-  <img src="./@Resources/preview/network.gif" width="400"/>
+  <img src="./@Resources/preview/network.gif" width="380"/>
 </p>
 
 # Установка
@@ -55,6 +63,51 @@
 2. Запустите Rainmeter и щелкните правой кнопкой мыши на кнопку **Обновить всё**.
 
 3. После обновления в списке активных скинов появится папка **NexaX**.
+
+# Настройка
+
+Настройка параметров скинов выполняется через редактирование [файла переменных](https://github.com/BlasterAlex/NexaX/blob/master/%40Resources/Variables.inc).
+
+Параметр ``compactMode`` включает / отключает (1/0) компактный режим отображения скинов. Компактный режим задает ширину всех скинов (кроме Clock), равную значению параметра ``windowWidthCompact``. По-умолчанию ширина данных скинов равняется значению параметра ``windowWidth``.
+
+Также изменяются некоторые элементы внутри скинов. Сравнения компактных и полных версий представлены на рисунках ниже.
+
+- Основная информация о системе
+
+<p align="center">
+  <img src="./@Resources/preview/comparison/system_full.png" title="Полная версия" style="margin-right: 20px;"/>
+  <img src="./@Resources/preview/comparison/system_compact.png" title="Компактная версия"/>
+</p>
+ 
+- Информация об использовании процессора и оперативной памяти
+
+<p align="center">
+  <img src="./@Resources/preview/comparison/resources_full.png" title="Полная версия" style="margin-right: 20px;"/>
+  <img src="./@Resources/preview/comparison/resources_compact.png" title="Компактная версия"/>
+</p>
+
+- Информация о дисках, подключаемых USB-устройствах и корзине
+
+<p align="center">
+  <img src="./@Resources/preview/comparison/drive_full.png" title="Полная версия" style="margin-right: 20px;"/>
+  <img src="./@Resources/preview/comparison/drive_compact.png" title="Компактная версия"/>
+</p>
+
+- Музыкальный проигрыватель
+
+<p align="center">
+  <img src="./@Resources/preview/comparison/music_full.png" title="Полная версия" style="margin-right: 20px;"/>
+  <img src="./@Resources/preview/comparison/music_compact.png" title="Компактная версия"/>
+</p>
+
+- Сетевой монитор
+
+<p align="center">
+  <img src="./@Resources/preview/comparison/network_full.png" title="Полная версия" style="margin-right: 20px;"/>
+  <img src="./@Resources/preview/comparison/network_compact.png" title="Компактная версия"/>
+</p>
+
+В данном конфигурационном файле также заданы настройка цветов и шрифтов отображаемого на скинах текста и элементов, размеры отступов, настройки дисков и музыкального скина.
 
 # Благодарность
 - [Nexa](https://7themes.su/news/nexa/2017-07-02-1282) — основной дизайн окон

@@ -1,8 +1,9 @@
 [Variables]
 
 ; Window settings
-compactMode=1
-windowWidth=250
+compactMode=0
+windowWidth=300
+windowWidthCompact=250
 windowPadding=20
 windowBarPadding=22
 windowSpectrumPadding=30
@@ -22,10 +23,12 @@ colorTextHover=255,255,255,240
 colorTextBackground=255,255,255,40
 colorTextBackgroundHover=255,255,255,50
 
+; Bars
 colorBar=232,180,148,800
 colorBarBlank=21,25,31,180
 colorBarHover=235,194,133,400
 
+; Diagrams and lists
 color1=258,267,121,500
 color2=159,255,153,500
 color3=255,150,0,200
@@ -35,12 +38,28 @@ color6=150,50,200,200
 color7=0,0,255,200
 color8=0,255,0,200
 
+; Battery
+colorBelow20=219,48,0
+colorBelow40=246,116,0
+colorBelow50=246,170,0
+colorBelow70=171,220,40
+colorBelow90=125,192,53
+colorBelow100=92,161,17
+
+; Drives
+LocalDisk_1=C
+LocalDisk_2=D
+
+UsbDrive_1=E
+UsbDrive_2=F
+UsbDrive_3=G
+UsbDrive_4=L
+
 ; Music
 bar-image=mixed\BarG.png
 Player=Winamp
 Alpha=1.0
 AlphaBar=1.0
-
 RMSGain=2.3
 RMSAttack=100
 RMSDecay=100
